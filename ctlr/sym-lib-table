@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name mic2025-1ym)(type Legacy)(uri ${KIPRJMOD}/mic2025-1ym.lib)(options "")(descr ""))
+  (lib (name tlc59281)(type Legacy)(uri ${KIPRJMOD}/tlc59281.lib)(options "")(descr ""))
+  (lib (name ft232rl)(type Legacy)(uri ${KIPRJMOD}/ft232rl.lib)(options "")(descr ""))
+  (lib (name attiny2313v-10su)(type Legacy)(uri ${KIPRJMOD}/attiny2313v-10su.lib)(options "")(descr ""))
+  (lib (name rstctlr-rescue)(type Legacy)(uri ${KIPRJMOD}/rstctlr-rescue.lib)(options "")(descr ""))
+  (lib (name ue27ac54100)(type Legacy)(uri ${KIPRJMOD}/ue27ac54100.lib)(options "")(descr ""))
+)

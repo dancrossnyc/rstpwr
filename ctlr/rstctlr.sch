@@ -1,0 +1,2194 @@
+EESchema Schematic File Version 4
+LIBS:rstctlr-cache
+EELAYER 29 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "Electrically Isolated Reset/Power Switch Controller"
+Date "2018-09-06"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mic2025-1ym:MIC2025-1YM U2
+U 1 1 5B8F0256
+P 5550 5200
+F 0 "U2" H 4885 5800 50  0000 C CNN
+F 1 "MIC2025-1YM" H 5250 5800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5100 4800 50  0001 C CNN
+F 3 "" H 5000 5950 50  0001 C BNN
+	1    5550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U5
+U 1 1 5B901B7A
+P 14365 1150
+F 0 "U5" H 14365 1475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 1384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 1700 50  0001 C CNN
+	1    14365 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U5
+U 2 1 5B901C1D
+P 14365 1550
+F 0 "U5" H 14365 1750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 1784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 1250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 2100 50  0001 C CNN
+	2    14365 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U6
+U 1 1 5B902058
+P 14365 2150
+F 0 "U6" H 14365 2475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 2384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 1850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 2700 50  0001 C CNN
+	1    14365 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U6
+U 2 1 5B90205E
+P 14365 2550
+F 0 "U6" H 14365 2750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 2784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 2250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 3100 50  0001 C CNN
+	2    14365 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U7
+U 1 1 5B902350
+P 14365 3150
+F 0 "U7" H 14365 3475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 3384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 2850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 3700 50  0001 C CNN
+	1    14365 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U7
+U 2 1 5B902356
+P 14365 3550
+F 0 "U7" H 14365 3750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 3784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 3250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 4100 50  0001 C CNN
+	2    14365 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U8
+U 1 1 5B90235C
+P 14365 4150
+F 0 "U8" H 14365 4475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 4384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 3850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 4700 50  0001 C CNN
+	1    14365 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U8
+U 2 1 5B902362
+P 14365 4550
+F 0 "U8" H 14365 4745 50  0000 C CNN
+F 1 "LTV-827S" H 14365 4784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 4250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 5100 50  0001 C CNN
+	2    14365 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U9
+U 1 1 5B9024F8
+P 14365 5150
+F 0 "U9" H 14365 5475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 5384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 4850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 5700 50  0001 C CNN
+	1    14365 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U9
+U 2 1 5B9024FE
+P 14365 5550
+F 0 "U9" H 14365 5750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 5784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 5250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 6100 50  0001 C CNN
+	2    14365 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U10
+U 1 1 5B902504
+P 14365 6150
+F 0 "U10" H 14365 6475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 6384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 5850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 6700 50  0001 C CNN
+	1    14365 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U10
+U 2 1 5B90250A
+P 14365 6550
+F 0 "U10" H 14365 6750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 6784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 6250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 7100 50  0001 C CNN
+	2    14365 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U11
+U 2 1 5B902516
+P 14365 7550
+F 0 "U11" H 14365 7745 50  0000 C CNN
+F 1 "LTV-827S" H 14365 7784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 7250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 8100 50  0001 C CNN
+	2    14365 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U12
+U 1 1 5B90251C
+P 14365 8150
+F 0 "U12" H 14365 8475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 8384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 7850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 8700 50  0001 C CNN
+	1    14365 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U12
+U 2 1 5B902522
+P 14365 8550
+F 0 "U12" H 14365 8750 50  0000 C CNN
+F 1 "LTV-827S" H 14365 8784 50  0001 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 8250 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 9100 50  0001 C CNN
+	2    14365 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:R-Device R1
+U 1 1 5B90320F
+P 1350 5450
+F 0 "R1" V 1143 5450 50  0000 C CNN
+F 1 "0Ω" V 1234 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 5450 50  0001 C CNN
+F 3 "~" H 1350 5450 50  0001 C CNN
+	1    1350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:GNDPWR-power #PWR01
+U 1 1 5B903603
+P 1200 6100
+F 0 "#PWR01" H 1200 5900 50  0001 C CNN
+F 1 "GNDPWR" H 1204 5946 50  0000 L CNN
+F 2 "" H 1200 6050 50  0001 C CNN
+F 3 "" H 1200 6050 50  0001 C CNN
+	1    1200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C1
+U 1 1 5B903756
+P 1350 5800
+F 0 "C1" V 1121 5800 50  0000 C CNN
+F 1 "NOPOP" V 1212 5800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1350 5800 50  0001 C CNN
+F 3 "~" H 1350 5800 50  0001 C CNN
+	1    1350 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR02
+U 1 1 5B903B3D
+P 1850 6150
+F 0 "#PWR02" H 1850 5900 50  0001 C CNN
+F 1 "Earth" H 1850 6000 50  0001 C CNN
+F 2 "" H 1850 6150 50  0001 C CNN
+F 3 "~" H 1850 6150 50  0001 C CNN
+	1    1850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR011
+U 1 1 5B90422A
+P 5725 5450
+F 0 "#PWR011" H 5725 5200 50  0001 C CNN
+F 1 "Earth" H 5725 5300 50  0001 C CNN
+F 2 "" H 5725 5450 50  0001 C CNN
+F 3 "~" H 5725 5450 50  0001 C CNN
+	1    5725 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C6
+U 1 1 5B90429F
+P 5725 5350
+F 0 "C6" H 5750 5425 50  0000 L CNN
+F 1 "100n" H 5750 5270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5725 5350 50  0001 C CNN
+F 3 "~" H 5725 5350 50  0001 C CNN
+	1    5725 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR08
+U 1 1 5B90468A
+P 3550 6500
+F 0 "#PWR08" H 3550 6250 50  0001 C CNN
+F 1 "Earth" H 3550 6350 50  0001 C CNN
+F 2 "" H 3550 6500 50  0001 C CNN
+F 3 "~" H 3550 6500 50  0001 C CNN
+	1    3550 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6500 3550 6400
+Wire Wire Line
+	3350 6250 3350 6400
+Wire Wire Line
+	3350 6400 3450 6400
+Connection ~ 3550 6400
+Wire Wire Line
+	3550 6400 3550 6250
+Wire Wire Line
+	3450 6250 3450 6400
+Connection ~ 3450 6400
+Wire Wire Line
+	3450 6400 3550 6400
+Wire Wire Line
+	3650 6250 3650 6400
+Wire Wire Line
+	3650 6400 3550 6400
+Wire Wire Line
+	3750 6250 3750 6400
+Wire Wire Line
+	3750 6400 3650 6400
+Connection ~ 3650 6400
+Wire Wire Line
+	1200 5450 1200 5800
+Wire Wire Line
+	1200 5800 1250 5800
+Wire Wire Line
+	1500 5450 1500 5800
+Wire Wire Line
+	1450 5800 1500 5800
+Connection ~ 1500 5800
+Wire Wire Line
+	1500 5800 1500 6100
+Wire Wire Line
+	1200 6100 1200 6000
+Connection ~ 1200 5800
+Wire Wire Line
+	1500 6100 1850 6100
+Wire Wire Line
+	1850 6100 1850 6150
+$Comp
+L rstctlr-rescue:D_TVS-Device D1
+U 1 1 5B90A95E
+P 1900 5100
+F 0 "D1" H 1830 5200 50  0000 L CNN
+F 1 "~" V 1945 5179 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1900 5100 50  0001 C CNN
+F 3 "~" H 1900 5100 50  0001 C CNN
+	1    1900 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D2
+U 1 1 5B90AA82
+P 2100 5100
+F 0 "D2" H 2030 5200 50  0000 L CNN
+F 1 "~" V 2145 5179 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2100 5100 50  0001 C CNN
+F 3 "~" H 2100 5100 50  0001 C CNN
+	1    2100 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D3
+U 1 1 5B90AB69
+P 2300 5100
+F 0 "D3" H 2230 5200 50  0000 L CNN
+F 1 "~" V 2345 5179 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2300 5100 50  0001 C CNN
+F 3 "~" H 2300 5100 50  0001 C CNN
+	1    2300 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 4950 2100 4750
+Wire Wire Line
+	2300 4950 2300 4850
+Wire Wire Line
+	2525 4550 2525 4300
+Connection ~ 1900 4550
+Wire Wire Line
+	1900 5250 1900 5900
+Wire Wire Line
+	1900 5900 1200 5900
+Connection ~ 1200 5900
+Wire Wire Line
+	1200 5900 1200 5800
+Wire Wire Line
+	1200 5950 2100 5950
+Wire Wire Line
+	2100 5950 2100 5250
+Connection ~ 1200 5950
+Wire Wire Line
+	1200 5950 1200 5900
+Wire Wire Line
+	2300 5250 2300 6000
+Wire Wire Line
+	2300 6000 1200 6000
+Connection ~ 1200 6000
+Wire Wire Line
+	1200 6000 1200 5950
+$Comp
+L rstctlr-rescue:Earth-power #PWR07
+U 1 1 5B9139CB
+P 3500 3850
+F 0 "#PWR07" H 3500 3600 50  0001 C CNN
+F 1 "Earth" H 3500 3700 50  0001 C CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "~" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C5
+U 1 1 5B913A6C
+P 3500 3950
+F 0 "C5" H 3490 3890 50  0000 R CNN
+F 1 "100n" H 3490 4025 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3500 3950 50  0001 C CNN
+F 3 "~" H 3500 3950 50  0001 C CNN
+	1    3500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR03
+U 1 1 5B915246
+P 1900 4100
+F 0 "#PWR03" H 1900 3850 50  0001 C CNN
+F 1 "Earth" H 1900 3950 50  0001 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "~" H 1900 4100 50  0001 C CNN
+	1    1900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C2
+U 1 1 5B91524C
+P 1900 4200
+F 0 "C2" H 1890 4140 50  0000 R CNN
+F 1 "10n" H 1885 4275 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 4200 50  0001 C CNN
+F 3 "~" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR04
+U 1 1 5B915D29
+P 2100 4100
+F 0 "#PWR04" H 2100 3850 50  0001 C CNN
+F 1 "Earth" H 2100 3950 50  0001 C CNN
+F 2 "" H 2100 4100 50  0001 C CNN
+F 3 "~" H 2100 4100 50  0001 C CNN
+	1    2100 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C3
+U 1 1 5B915D2F
+P 2100 4200
+F 0 "C3" H 2090 4140 50  0000 R CNN
+F 1 "4.7u" H 2090 4275 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2100 4200 50  0001 C CNN
+F 3 "~" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 4550 1900 4300
+Wire Wire Line
+	2100 4300 2100 4550
+Wire Wire Line
+	3500 4050 3500 4300
+Connection ~ 2100 4550
+$Comp
+L rstctlr-rescue:Ferrite_Bead_Small-Device FB1
+U 1 1 5B91C5DE
+P 2000 4550
+F 0 "FB1" V 1855 4550 50  0000 C CNN
+F 1 "FB" V 1854 4550 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 1930 4550 50  0001 C CNN
+F 3 "~" H 2000 4550 50  0001 C CNN
+	1    2000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR010
+U 1 1 5B9249F8
+P 4700 5450
+F 0 "#PWR010" H 4700 5200 50  0001 C CNN
+F 1 "Earth" H 4700 5300 50  0001 C CNN
+F 2 "" H 4700 5450 50  0001 C CNN
+F 3 "~" H 4700 5450 50  0001 C CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5450 4700 5150
+Wire Wire Line
+	5725 4750 5725 5150
+NoConn ~ 4700 4950
+NoConn ~ 9415 6050
+$Comp
+L rstctlr-rescue:R-Device R9
+U 1 1 5B937B81
+P 9415 6400
+F 0 "R9" H 9470 6400 50  0000 L CNN
+F 1 "4.99kΩ" H 9475 6330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9345 6400 50  0001 C CNN
+F 3 "~" H 9415 6400 50  0001 C CNN
+	1    9415 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR015
+U 1 1 5B937C94
+P 9415 6600
+F 0 "#PWR015" H 9415 6350 50  0001 C CNN
+F 1 "Earth" H 9415 6450 50  0001 C CNN
+F 2 "" H 9415 6600 50  0001 C CNN
+F 3 "~" H 9415 6600 50  0001 C CNN
+	1    9415 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR017
+U 1 1 5B93A1A6
+P 9915 6600
+F 0 "#PWR017" H 9915 6350 50  0001 C CNN
+F 1 "Earth" H 9915 6450 50  0001 C CNN
+F 2 "" H 9915 6600 50  0001 C CNN
+F 3 "~" H 9915 6600 50  0001 C CNN
+	1    9915 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9915 6600 9915 6500
+Wire Wire Line
+	9415 6600 9415 6550
+Wire Wire Line
+	9415 6250 9415 6150
+$Comp
+L rstctlr-rescue:LED_Small-Device D6
+U 1 1 5B93E020
+P 13865 1250
+F 0 "D6" H 13865 1170 50  0000 C CNN
+F 1 "RED" H 13865 1394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 1250 50  0001 C CNN
+F 3 "~" V 13865 1250 50  0001 C CNN
+	1    13865 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L tlc59281:TLC59281 U4
+U 1 1 5B8F0404
+P 9765 4250
+F 0 "U4" H 9640 4000 50  0000 C CNN
+F 1 "TLC59281" H 10125 4005 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm" H 9865 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc59281.pdf" H 9915 4500 50  0001 C CNN
+	1    9765 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D22
+U 1 1 5B9A82D6
+P 13965 1150
+F 0 "D22" V 13905 1190 50  0000 L CNN
+F 1 "~" V 14010 1218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 1150 50  0001 C CNN
+F 3 "~" V 13965 1150 50  0001 C CNN
+	1    13965 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 1250 13965 1250
+Connection ~ 13965 1250
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J4
+U 1 1 5B9AA052
+P 15425 1250
+F 0 "J4" H 15505 1242 50  0000 L CNN
+F 1 "~" H 15505 1151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 1250 50  0001 C CNN
+F 3 "~" H 15425 1250 50  0001 C CNN
+	1    15425 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 13965 1050
+Wire Wire Line
+	13965 1050 14065 1050
+$Comp
+L rstctlr-rescue:LED_Small-Device D9
+U 1 1 5B9C6EF5
+P 13865 2650
+F 0 "D9" H 13865 2570 50  0000 C CNN
+F 1 "GRN" H 13865 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 2650 50  0001 C CNN
+F 3 "~" V 13865 2650 50  0001 C CNN
+	1    13865 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D25
+U 1 1 5B9C6EFC
+P 13965 2550
+F 0 "D25" V 13905 2590 50  0000 L CNN
+F 1 "~" V 14010 2618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 2550 50  0001 C CNN
+F 3 "~" V 13965 2550 50  0001 C CNN
+	1    13965 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 2650 13965 2650
+Connection ~ 13965 2650
+$Comp
+L rstctlr-rescue:LTV-827S-Isolator U11
+U 1 1 5B902510
+P 14365 7150
+F 0 "U11" H 14365 7475 50  0000 C CNN
+F 1 "LTV-827S" H 14365 7384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-8_W9.53mm" H 14365 6850 50  0001 C CNN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 13565 7700 50  0001 C CNN
+	1    14365 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LED_Small-Device D8
+U 1 1 5B9CB5F9
+P 13865 2250
+F 0 "D8" H 13865 2170 50  0000 C CNN
+F 1 "RED" H 13865 2394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 2250 50  0001 C CNN
+F 3 "~" V 13865 2250 50  0001 C CNN
+	1    13865 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D24
+U 1 1 5B9CB600
+P 13965 2150
+F 0 "D24" V 13905 2190 50  0000 L CNN
+F 1 "~" V 14010 2218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 2150 50  0001 C CNN
+F 3 "~" V 13965 2150 50  0001 C CNN
+	1    13965 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 2250 13965 2250
+Connection ~ 13965 2250
+$Comp
+L rstctlr-rescue:LED_Small-Device D7
+U 1 1 5B9CE41E
+P 13865 1650
+F 0 "D7" H 13865 1570 50  0000 C CNN
+F 1 "GRN" H 13865 1794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 1650 50  0001 C CNN
+F 3 "~" V 13865 1650 50  0001 C CNN
+	1    13865 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D23
+U 1 1 5B9CE425
+P 13965 1550
+F 0 "D23" V 13905 1590 50  0000 L CNN
+F 1 "~" V 14010 1618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 1550 50  0001 C CNN
+F 3 "~" V 13965 1550 50  0001 C CNN
+	1    13965 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 1650 13965 1650
+Connection ~ 13965 1650
+$Comp
+L rstctlr-rescue:LED_Small-Device D10
+U 1 1 5B9CFB52
+P 13865 3250
+F 0 "D10" H 13865 3170 50  0000 C CNN
+F 1 "RED" H 13865 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 3250 50  0001 C CNN
+F 3 "~" V 13865 3250 50  0001 C CNN
+	1    13865 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D26
+U 1 1 5B9CFB59
+P 13965 3150
+F 0 "D26" V 13905 3190 50  0000 L CNN
+F 1 "~" V 14010 3218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 3150 50  0001 C CNN
+F 3 "~" V 13965 3150 50  0001 C CNN
+	1    13965 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 3250 13965 3250
+Connection ~ 13965 3250
+$Comp
+L rstctlr-rescue:LED_Small-Device D11
+U 1 1 5B9D2B5F
+P 13865 3650
+F 0 "D11" H 13865 3570 50  0000 C CNN
+F 1 "GRN" H 13865 3794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 3650 50  0001 C CNN
+F 3 "~" V 13865 3650 50  0001 C CNN
+	1    13865 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D27
+U 1 1 5B9D2B66
+P 13965 3550
+F 0 "D27" V 13905 3590 50  0000 L CNN
+F 1 "~" V 14010 3618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 3550 50  0001 C CNN
+F 3 "~" V 13965 3550 50  0001 C CNN
+	1    13965 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 3650 13965 3650
+Connection ~ 13965 3650
+$Comp
+L rstctlr-rescue:LED_Small-Device D12
+U 1 1 5B9D43B8
+P 13865 4250
+F 0 "D12" H 13865 4170 50  0000 C CNN
+F 1 "RED" H 13865 4394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 4250 50  0001 C CNN
+F 3 "~" V 13865 4250 50  0001 C CNN
+	1    13865 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D28
+U 1 1 5B9D43BF
+P 13965 4150
+F 0 "D28" V 13905 4190 50  0000 L CNN
+F 1 "~" V 14010 4218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 4150 50  0001 C CNN
+F 3 "~" V 13965 4150 50  0001 C CNN
+	1    13965 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 4250 13965 4250
+Connection ~ 13965 4250
+$Comp
+L rstctlr-rescue:LED_Small-Device D13
+U 1 1 5B9D5CA1
+P 13865 4650
+F 0 "D13" H 13865 4570 50  0000 C CNN
+F 1 "GRN" H 13865 4794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 4650 50  0001 C CNN
+F 3 "~" V 13865 4650 50  0001 C CNN
+	1    13865 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D29
+U 1 1 5B9D5CA8
+P 13965 4550
+F 0 "D29" V 13905 4590 50  0000 L CNN
+F 1 "~" V 14010 4618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 4550 50  0001 C CNN
+F 3 "~" V 13965 4550 50  0001 C CNN
+	1    13965 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 4650 13965 4650
+Connection ~ 13965 4650
+$Comp
+L rstctlr-rescue:LED_Small-Device D14
+U 1 1 5B9D761B
+P 13865 5250
+F 0 "D14" H 13865 5170 50  0000 C CNN
+F 1 "RED" H 13865 5394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 5250 50  0001 C CNN
+F 3 "~" V 13865 5250 50  0001 C CNN
+	1    13865 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D30
+U 1 1 5B9D7622
+P 13965 5150
+F 0 "D30" V 13905 5190 50  0000 L CNN
+F 1 "~" V 14010 5218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 5150 50  0001 C CNN
+F 3 "~" V 13965 5150 50  0001 C CNN
+	1    13965 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 5250 13965 5250
+$Comp
+L rstctlr-rescue:LED_Small-Device D15
+U 1 1 5B9D903B
+P 13865 5650
+F 0 "D15" H 13865 5570 50  0000 C CNN
+F 1 "GRN" H 13865 5794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 5650 50  0001 C CNN
+F 3 "~" V 13865 5650 50  0001 C CNN
+	1    13865 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D31
+U 1 1 5B9D9042
+P 13965 5550
+F 0 "D31" V 13905 5590 50  0000 L CNN
+F 1 "~" V 14010 5618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 5550 50  0001 C CNN
+F 3 "~" V 13965 5550 50  0001 C CNN
+	1    13965 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L rstctlr-rescue:LED_Small-Device D16
+U 1 1 5B9DAB68
+P 13865 6250
+F 0 "D16" H 13865 6170 50  0000 C CNN
+F 1 "RED" H 13865 6394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 6250 50  0001 C CNN
+F 3 "~" V 13865 6250 50  0001 C CNN
+	1    13865 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D32
+U 1 1 5B9DAB6F
+P 13965 6150
+F 0 "D32" V 13905 6190 50  0000 L CNN
+F 1 "~" V 14010 6218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 6150 50  0001 C CNN
+F 3 "~" V 13965 6150 50  0001 C CNN
+	1    13965 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 6250 13965 6250
+Connection ~ 13965 6250
+$Comp
+L rstctlr-rescue:LED_Small-Device D17
+U 1 1 5B9DC6BB
+P 13865 6650
+F 0 "D17" H 13865 6570 50  0000 C CNN
+F 1 "GRN" H 13865 6794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 6650 50  0001 C CNN
+F 3 "~" V 13865 6650 50  0001 C CNN
+	1    13865 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D33
+U 1 1 5B9DC6C2
+P 13965 6550
+F 0 "D33" V 13905 6590 50  0000 L CNN
+F 1 "~" V 14010 6618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 6550 50  0001 C CNN
+F 3 "~" V 13965 6550 50  0001 C CNN
+	1    13965 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 6650 13965 6650
+Connection ~ 13965 6650
+$Comp
+L rstctlr-rescue:LED_Small-Device D18
+U 1 1 5B9DE2D3
+P 13865 7250
+F 0 "D18" H 13865 7170 50  0000 C CNN
+F 1 "RED" H 13865 7394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 7250 50  0001 C CNN
+F 3 "~" V 13865 7250 50  0001 C CNN
+	1    13865 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D34
+U 1 1 5B9DE2DA
+P 13965 7150
+F 0 "D34" V 13905 7190 50  0000 L CNN
+F 1 "~" V 14010 7218 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 7150 50  0001 C CNN
+F 3 "~" V 13965 7150 50  0001 C CNN
+	1    13965 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 7250 13965 7250
+Connection ~ 13965 7250
+$Comp
+L rstctlr-rescue:LED_Small-Device D19
+U 1 1 5B9DFF89
+P 13865 7650
+F 0 "D19" H 13865 7570 50  0000 C CNN
+F 1 "GRN" H 13865 7794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 7650 50  0001 C CNN
+F 3 "~" V 13865 7650 50  0001 C CNN
+	1    13865 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D35
+U 1 1 5B9DFF90
+P 13965 7550
+F 0 "D35" V 13905 7590 50  0000 L CNN
+F 1 "~" V 14010 7618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 7550 50  0001 C CNN
+F 3 "~" V 13965 7550 50  0001 C CNN
+	1    13965 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 7650 13965 7650
+Connection ~ 13965 7650
+$Comp
+L rstctlr-rescue:LED_Small-Device D20
+U 1 1 5B9E1D0A
+P 13865 8250
+F 0 "D20" H 13865 8170 50  0000 C CNN
+F 1 "RED" H 13865 8394 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 8250 50  0001 C CNN
+F 3 "~" V 13865 8250 50  0001 C CNN
+	1    13865 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D36
+U 1 1 5B9E1D11
+P 13965 8150
+F 0 "D36" V 13905 8190 50  0000 L CNN
+F 1 "~" V 14010 8218 50  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 8150 50  0001 C CNN
+F 3 "~" V 13965 8150 50  0001 C CNN
+	1    13965 8150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 8250 13965 8250
+Connection ~ 13965 8250
+$Comp
+L rstctlr-rescue:LED_Small-Device D21
+U 1 1 5B9E3B3F
+P 13865 8650
+F 0 "D21" H 13865 8570 50  0000 C CNN
+F 1 "GRN" H 13865 8794 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 13865 8650 50  0001 C CNN
+F 3 "~" V 13865 8650 50  0001 C CNN
+	1    13865 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:D_Small-Device D37
+U 1 1 5B9E3B46
+P 13965 8550
+F 0 "D37" V 13905 8590 50  0000 L CNN
+F 1 "~" V 14010 8618 50  0001 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric" V 13965 8550 50  0001 C CNN
+F 3 "~" V 13965 8550 50  0001 C CNN
+	1    13965 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14065 8650 13965 8650
+Connection ~ 13965 8650
+Wire Wire Line
+	15225 1150 15175 1150
+Wire Wire Line
+	15175 1150 15175 1050
+Wire Wire Line
+	14065 1450 13965 1450
+Wire Wire Line
+	13665 1450 13665 1050
+Connection ~ 13965 1450
+Wire Wire Line
+	13965 1450 13665 1450
+Connection ~ 13665 1050
+Wire Wire Line
+	14065 2050 13965 2050
+Wire Wire Line
+	13465 2050 13465 1050
+Connection ~ 13965 2050
+Connection ~ 13465 1050
+Wire Wire Line
+	13465 1050 13665 1050
+Wire Wire Line
+	14065 2450 13965 2450
+Wire Wire Line
+	13365 2450 13365 1050
+Connection ~ 13965 2450
+Connection ~ 13365 1050
+Wire Wire Line
+	13365 1050 13465 1050
+Wire Wire Line
+	14065 3050 13965 3050
+Wire Wire Line
+	13165 3050 13165 1050
+Connection ~ 13965 3050
+Connection ~ 13165 1050
+Wire Wire Line
+	13165 1050 13365 1050
+Wire Wire Line
+	14065 3450 13965 3450
+Wire Wire Line
+	13065 3450 13065 1050
+Connection ~ 13965 3450
+Connection ~ 13065 1050
+Wire Wire Line
+	13065 1050 13165 1050
+Wire Wire Line
+	14065 4050 13965 4050
+Wire Wire Line
+	12865 4050 12865 1050
+Connection ~ 13965 4050
+Connection ~ 12865 1050
+Wire Wire Line
+	12865 1050 13065 1050
+Wire Wire Line
+	14065 4450 13965 4450
+Wire Wire Line
+	12765 4450 12765 1050
+Connection ~ 13965 4450
+Connection ~ 12765 1050
+Wire Wire Line
+	12765 1050 12865 1050
+Wire Wire Line
+	14065 5050 13965 5050
+Wire Wire Line
+	12565 5050 12565 1050
+Connection ~ 13965 5050
+Connection ~ 12565 1050
+Wire Wire Line
+	12565 1050 12765 1050
+Wire Wire Line
+	14065 5450 13965 5450
+Wire Wire Line
+	12465 5450 12465 1050
+Connection ~ 13965 5450
+Connection ~ 12465 1050
+Wire Wire Line
+	12465 1050 12565 1050
+Wire Wire Line
+	14065 6050 13965 6050
+Wire Wire Line
+	12265 6050 12265 1050
+Connection ~ 13965 6050
+Connection ~ 12265 1050
+Wire Wire Line
+	12265 1050 12465 1050
+Wire Wire Line
+	14065 6450 13965 6450
+Wire Wire Line
+	12165 6450 12165 1050
+Connection ~ 13965 6450
+Connection ~ 12165 1050
+Wire Wire Line
+	12165 1050 12265 1050
+Wire Wire Line
+	14065 7050 13965 7050
+Wire Wire Line
+	11965 7050 11965 1050
+Connection ~ 13965 7050
+Connection ~ 11965 1050
+Wire Wire Line
+	11965 1050 12165 1050
+Wire Wire Line
+	14065 7450 13965 7450
+Wire Wire Line
+	11865 7450 11865 1050
+Connection ~ 13965 7450
+Connection ~ 11865 1050
+Wire Wire Line
+	11865 1050 11965 1050
+Wire Wire Line
+	11665 1050 11665 8050
+Connection ~ 11665 1050
+Wire Wire Line
+	11665 1050 11865 1050
+Connection ~ 13965 8050
+Wire Wire Line
+	13965 8050 14065 8050
+Wire Wire Line
+	11565 1050 11565 8450
+Connection ~ 11565 1050
+Wire Wire Line
+	11565 1050 11665 1050
+Connection ~ 13965 8450
+Wire Wire Line
+	13965 8450 14065 8450
+Wire Wire Line
+	13665 1050 13965 1050
+Wire Wire Line
+	9915 1050 11565 1050
+Wire Wire Line
+	10415 4700 10415 1250
+Wire Wire Line
+	10415 1250 13765 1250
+Wire Wire Line
+	13765 1650 10515 1650
+Wire Wire Line
+	10515 1650 10515 4800
+Wire Wire Line
+	10515 4800 10415 4800
+Wire Wire Line
+	10415 4900 10615 4900
+Wire Wire Line
+	10615 4900 10615 2250
+Wire Wire Line
+	10715 2650 10715 5000
+Wire Wire Line
+	10815 3250 10815 5100
+Wire Wire Line
+	10815 5100 10415 5100
+Wire Wire Line
+	10915 3650 10915 5200
+Wire Wire Line
+	10915 5200 10415 5200
+Wire Wire Line
+	11015 4250 11015 5300
+Wire Wire Line
+	11015 5300 10415 5300
+Wire Wire Line
+	11115 4650 11115 5400
+Wire Wire Line
+	11115 5400 10415 5400
+Wire Wire Line
+	11210 5250 11215 5500
+Wire Wire Line
+	11215 5500 10415 5500
+Wire Wire Line
+	11215 5650 11215 5600
+Wire Wire Line
+	11215 5600 10415 5600
+Wire Wire Line
+	11115 6250 11115 5700
+Wire Wire Line
+	11115 5700 10415 5700
+Wire Wire Line
+	11015 5800 10415 5800
+Wire Wire Line
+	11015 6650 11015 5800
+Wire Wire Line
+	10415 5900 10915 5900
+Wire Wire Line
+	10915 5900 10915 7250
+Wire Wire Line
+	10815 7650 10815 6000
+Wire Wire Line
+	10815 6000 10415 6000
+Wire Wire Line
+	10415 6100 10715 6100
+Wire Wire Line
+	10715 6100 10715 8250
+Wire Wire Line
+	10415 6200 10615 6200
+Wire Wire Line
+	10615 6200 10615 8650
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J5
+U 1 1 5BB0FFAE
+P 15425 2250
+F 0 "J5" H 15505 2242 50  0000 L CNN
+F 1 "~" H 15505 2151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 2250 50  0001 C CNN
+F 3 "~" H 15425 2250 50  0001 C CNN
+	1    15425 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 2150 15175 2150
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J6
+U 1 1 5BB1D42B
+P 15425 3250
+F 0 "J6" H 15505 3242 50  0000 L CNN
+F 1 "~" H 15505 3151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 3250 50  0001 C CNN
+F 3 "~" H 15425 3250 50  0001 C CNN
+	1    15425 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 3150 15175 3150
+Wire Wire Line
+	15175 3150 15175 3050
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J7
+U 1 1 5BB2B7E3
+P 15425 4250
+F 0 "J7" H 15505 4242 50  0000 L CNN
+F 1 "~" H 15505 4151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 4250 50  0001 C CNN
+F 3 "~" H 15425 4250 50  0001 C CNN
+	1    15425 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 4150 15175 4150
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J8
+U 1 1 5BB3AB90
+P 15425 5250
+F 0 "J8" H 15505 5242 50  0000 L CNN
+F 1 "~" H 15505 5151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 5250 50  0001 C CNN
+F 3 "~" H 15425 5250 50  0001 C CNN
+	1    15425 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 5150 15175 5150
+Wire Wire Line
+	15175 5150 15175 5050
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J9
+U 1 1 5BB4B047
+P 15425 6250
+F 0 "J9" H 15505 6242 50  0000 L CNN
+F 1 "~" H 15505 6151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 6250 50  0001 C CNN
+F 3 "~" H 15425 6250 50  0001 C CNN
+	1    15425 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 6150 15175 6150
+Wire Wire Line
+	15175 6150 15175 6050
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J10
+U 1 1 5BB5C6D4
+P 15425 7250
+F 0 "J10" H 15505 7242 50  0000 L CNN
+F 1 "~" H 15505 7151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 7250 50  0001 C CNN
+F 3 "~" H 15425 7250 50  0001 C CNN
+	1    15425 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 7150 15175 7150
+Wire Wire Line
+	15175 7150 15175 7050
+$Comp
+L rstctlr-rescue:Conn_01x04-Connector_Generic J11
+U 1 1 5BB6F029
+P 15425 8250
+F 0 "J11" H 15505 8242 50  0000 L CNN
+F 1 "~" H 15505 8151 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical" H 15425 8250 50  0001 C CNN
+F 3 "~" H 15425 8250 50  0001 C CNN
+	1    15425 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15225 8150 15175 8150
+Wire Wire Line
+	15175 8150 15175 8050
+$Comp
+L rstctlr-rescue:C_Small-Device C8
+U 1 1 5BDBEB2D
+P 9465 4500
+F 0 "C8" H 9295 4546 50  0000 L CNN
+F 1 "100n" H 9217 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9465 4500 50  0001 C CNN
+F 3 "~" H 9465 4500 50  0001 C CNN
+	1    9465 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR016
+U 1 1 5BDBEC82
+P 9465 4600
+F 0 "#PWR016" H 9465 4350 50  0001 C CNN
+F 1 "Earth" H 9465 4450 50  0001 C CNN
+F 2 "" H 9465 4600 50  0001 C CNN
+F 3 "~" H 9465 4600 50  0001 C CNN
+	1    9465 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9465 4400 9915 4400
+Connection ~ 9915 4400
+$Comp
+L rstctlr-rescue:FT232RL-ft232rl U1
+U 1 1 5BE51EA0
+P 3550 4200
+F 0 "U1" H 3195 3800 50  0000 C CNN
+F 1 "FT232RL" H 3850 3800 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 3550 4200 50  0001 C CNN
+F 3 "" H 3550 4200 50  0001 C CNN
+	1    3550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C4
+U 1 1 5BE51FCA
+P 2850 6150
+F 0 "C4" H 2942 6196 50  0000 L CNN
+F 1 "100n" H 2942 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 6150 50  0001 C CNN
+F 3 "~" H 2850 6150 50  0001 C CNN
+	1    2850 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6050 2850 5850
+Wire Wire Line
+	2850 5850 3000 5850
+$Comp
+L rstctlr-rescue:Earth-power #PWR06
+U 1 1 5BE66687
+P 2850 6500
+F 0 "#PWR06" H 2850 6250 50  0001 C CNN
+F 1 "Earth" H 2850 6350 50  0001 C CNN
+F 2 "" H 2850 6500 50  0001 C CNN
+F 3 "~" H 2850 6500 50  0001 C CNN
+	1    2850 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6500 2850 6250
+Wire Wire Line
+	5725 5150 5725 5250
+Wire Wire Line
+	4700 4750 4600 4750
+$Comp
+L rstctlr-rescue:LED_Small-Device D4
+U 1 1 5C038E09
+P 4200 4750
+F 0 "D4" V 4200 4710 50  0000 R CNN
+F 1 "RED" V 4155 4682 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 4200 4750 50  0001 C CNN
+F 3 "~" V 4200 4750 50  0001 C CNN
+	1    4200 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 4300 3690 4300
+Wire Wire Line
+	4200 4850 4100 4850
+Connection ~ 4200 4300
+$Comp
+L rstctlr-rescue:R_Small-Device R4
+U 1 1 5C0790BE
+P 4200 4500
+F 0 "R4" V 4130 4370 50  0000 L CNN
+F 1 "1kΩ" V 4130 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4200 4500 50  0001 C CNN
+F 3 "~" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:R_Small-Device R5
+U 1 1 5C07938A
+P 4400 4500
+F 0 "R5" V 4330 4370 50  0000 L CNN
+F 1 "1kΩ" V 4330 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 4500 50  0001 C CNN
+F 3 "~" H 4400 4500 50  0001 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:R-Device R6
+U 1 1 5C0794C6
+P 4600 4960
+F 0 "R6" H 4445 4950 50  0000 L CNN
+F 1 "10kΩ" H 4355 4885 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4530 4960 50  0001 C CNN
+F 3 "~" H 4600 4960 50  0001 C CNN
+	1    4600 4960
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:LED_Small-Device D5
+U 1 1 5C08F928
+P 4400 4850
+F 0 "D5" V 4400 4810 50  0000 R CNN
+F 1 "GRN" V 4355 4782 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 4400 4850 50  0001 C CNN
+F 3 "~" V 4400 4850 50  0001 C CNN
+	1    4400 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 4300 4200 4400
+Wire Wire Line
+	4200 4650 4200 4600
+Wire Wire Line
+	4600 5150 4600 5110
+Wire Wire Line
+	4100 5150 4600 5150
+Wire Wire Line
+	4100 4950 4400 4950
+Wire Wire Line
+	4400 4750 4400 4600
+Wire Wire Line
+	4200 4300 4400 4300
+Wire Wire Line
+	4400 4400 4400 4300
+Connection ~ 4400 4300
+Wire Wire Line
+	5550 4300 5550 4950
+Wire Wire Line
+	5550 4950 5500 4950
+Wire Wire Line
+	5725 4750 5725 4300
+Connection ~ 5725 4750
+NoConn ~ 3000 5250
+NoConn ~ 3000 5350
+NoConn ~ 3000 5450
+NoConn ~ 3000 5550
+NoConn ~ 3000 5650
+NoConn ~ 3000 5750
+NoConn ~ 4100 5050
+$Comp
+L rstctlr-rescue:Conn_01x02-Connector_Generic J2
+U 1 1 5B92EED4
+P 3890 4300
+F 0 "J2" H 3950 4245 50  0000 L CNN
+F 1 "~" H 3970 4201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3890 4300 50  0001 C CNN
+F 3 "~" H 3890 4300 50  0001 C CNN
+	1    3890 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR09
+U 1 1 5B92F079
+P 3690 4400
+F 0 "#PWR09" H 3690 4150 50  0001 C CNN
+F 1 "Earth" H 3690 4250 50  0001 C CNN
+F 2 "" H 3690 4400 50  0001 C CNN
+F 3 "~" H 3690 4400 50  0001 C CNN
+	1    3690 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:C_Small-Device C7
+U 1 1 5B948CA0
+P 6230 4500
+F 0 "C7" H 6030 4550 50  0000 L CNN
+F 1 "100n" H 6030 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6230 4500 50  0001 C CNN
+F 3 "~" H 6230 4500 50  0001 C CNN
+	1    6230 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR012
+U 1 1 5B960FA3
+P 6230 4600
+F 0 "#PWR012" H 6230 4350 50  0001 C CNN
+F 1 "Earth" H 6230 4450 50  0001 C CNN
+F 2 "" H 6230 4600 50  0001 C CNN
+F 3 "~" H 6230 4600 50  0001 C CNN
+	1    6230 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6830 4300 6830 4400
+Wire Wire Line
+	6230 4400 6830 4400
+Connection ~ 6830 4400
+Wire Wire Line
+	9415 5100 9315 5100
+Wire Wire Line
+	9215 5200 9415 5200
+NoConn ~ 6230 5600
+$Comp
+L rstctlr-rescue:Earth-power #PWR013
+U 1 1 5BB9E026
+P 6830 6700
+F 0 "#PWR013" H 6830 6450 50  0001 C CNN
+F 1 "Earth" H 6830 6550 50  0001 C CNN
+F 2 "" H 6830 6700 50  0001 C CNN
+F 3 "~" H 6830 6700 50  0001 C CNN
+	1    6830 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7430 5200
+NoConn ~ 6230 6050
+NoConn ~ 6230 6150
+NoConn ~ 6230 6250
+NoConn ~ 6230 6350
+NoConn ~ 6230 6450
+$Comp
+L rstctlr-rescue:ATtiny2313A-20SU-attiny2313v-10su U3
+U 1 1 5BD43C93
+P 6830 5600
+F 0 "U3" H 6430 6650 50  0000 C CNN
+F 1 "ATtiny2313A-20SU" H 7230 6650 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 6830 5450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2543-AVR-ATtiny2313_Datasheet.pdf" H 6830 5600 50  0001 C CNN
+	1    6830 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4550 1900 4550
+$Comp
+L rstctlr-rescue:PWR_FLAG-power #FLG01
+U 1 1 5BE18319
+P 1200 6100
+F 0 "#FLG01" H 1200 6175 50  0001 C CNN
+F 1 "PWR_FLAG" V 1200 6228 50  0001 L CNN
+F 2 "" H 1200 6100 50  0001 C CNN
+F 3 "~" H 1200 6100 50  0001 C CNN
+	1    1200 6100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1200 6100
+Wire Wire Line
+	6830 4400 6830 4500
+NoConn ~ 4100 5450
+Wire Wire Line
+	6135 5400 6230 5400
+Wire Wire Line
+	6135 5750 6135 5950
+Wire Wire Line
+	6135 5950 6230 5950
+$Comp
+L rstctlr-rescue:R-Device R7
+U 1 1 5C278663
+P 6035 4975
+F 0 "R7" H 6105 5021 50  0000 L CNN
+F 1 "10kΩ" H 6105 4930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5965 4975 50  0001 C CNN
+F 3 "~" H 6035 4975 50  0001 C CNN
+	1    6035 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15175 1650 15175 1350
+Wire Wire Line
+	15175 1350 15225 1350
+Wire Wire Line
+	15175 2650 15175 2350
+Wire Wire Line
+	15175 2350 15225 2350
+Wire Wire Line
+	15175 3650 15175 3350
+Wire Wire Line
+	15175 3350 15225 3350
+Wire Wire Line
+	15175 4650 15175 4350
+Wire Wire Line
+	15175 4350 15225 4350
+Wire Wire Line
+	15175 5650 15175 5350
+Wire Wire Line
+	15175 5350 15225 5350
+Wire Wire Line
+	15175 6650 15175 6350
+Wire Wire Line
+	15175 6350 15225 6350
+Wire Wire Line
+	15175 7650 15175 7350
+Wire Wire Line
+	15175 7350 15225 7350
+Wire Wire Line
+	15175 8650 15175 8350
+Wire Wire Line
+	15175 8350 15225 8350
+Wire Wire Line
+	14665 1250 14875 1250
+Wire Wire Line
+	14665 1450 14875 1450
+Wire Wire Line
+	14875 2350 14875 2450
+Wire Wire Line
+	14875 2450 15225 2450
+Wire Wire Line
+	14665 1050 15175 1050
+Wire Wire Line
+	14875 1150 14875 1250
+Connection ~ 14875 1250
+Wire Wire Line
+	14875 1250 15225 1250
+Wire Wire Line
+	14665 1650 15175 1650
+Wire Wire Line
+	14875 1350 14875 1450
+Connection ~ 14875 1450
+Wire Wire Line
+	14875 1450 15225 1450
+Wire Wire Line
+	14875 2150 14875 2250
+Wire Wire Line
+	14875 2250 15225 2250
+$Comp
+L rstctlr-rescue:D_TVS-Device D51
+U 1 1 5CF4AE2D
+P 15025 7350
+F 0 "D51" H 15205 7315 50  0000 C CNN
+F 1 "~" H 15025 7225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 7350 50  0001 C CNN
+F 3 "~" H 15025 7350 50  0001 C CNN
+	1    15025 7350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14875 3150 14875 3250
+Wire Wire Line
+	14875 3250 15225 3250
+Wire Wire Line
+	14875 3350 14875 3450
+Wire Wire Line
+	14875 3450 15225 3450
+Wire Wire Line
+	14875 4150 14875 4250
+Wire Wire Line
+	14875 4250 15225 4250
+Wire Wire Line
+	14875 4350 14875 4450
+Wire Wire Line
+	14875 4450 15225 4450
+Wire Wire Line
+	14875 5150 14875 5250
+Wire Wire Line
+	14875 5250 15225 5250
+Wire Wire Line
+	14875 5350 14875 5450
+Wire Wire Line
+	14875 6150 14875 6250
+Wire Wire Line
+	14875 6250 15225 6250
+Wire Wire Line
+	14875 6350 14875 6450
+Wire Wire Line
+	14875 6450 15225 6450
+Wire Wire Line
+	14875 7150 14875 7250
+Wire Wire Line
+	14875 7250 15225 7250
+Wire Wire Line
+	14875 7350 14875 7450
+Wire Wire Line
+	14875 7450 15225 7450
+Wire Wire Line
+	14875 8150 14875 8250
+Wire Wire Line
+	14875 8250 15225 8250
+Wire Wire Line
+	14875 8350 14875 8450
+Wire Wire Line
+	14875 8450 15225 8450
+Connection ~ 15175 7350
+Wire Wire Line
+	6830 4300 7810 4300
+Connection ~ 6830 4300
+Wire Wire Line
+	9315 4900 9315 5100
+Wire Wire Line
+	9115 5100 9115 5400
+$Comp
+L rstctlr-rescue:D_TVS-Device D50
+U 1 1 5D1E7E38
+P 15025 7150
+F 0 "D50" H 15205 7115 50  0000 C CNN
+F 1 "~" H 15025 7025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 7150 50  0001 C CNN
+F 3 "~" H 15025 7150 50  0001 C CNN
+	1    15025 7150
+	-1   0    0    1   
+$EndComp
+Connection ~ 15175 7150
+$Comp
+L rstctlr-rescue:D_TVS-Device D52
+U 1 1 5D205F64
+P 15025 8150
+F 0 "D52" H 15205 8115 50  0000 C CNN
+F 1 "~" H 15025 8025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 8150 50  0001 C CNN
+F 3 "~" H 15025 8150 50  0001 C CNN
+	1    15025 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D53
+U 1 1 5D2240F3
+P 15025 8350
+F 0 "D53" H 15205 8315 50  0000 C CNN
+F 1 "~" H 15025 8225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 8350 50  0001 C CNN
+F 3 "~" H 15025 8350 50  0001 C CNN
+	1    15025 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D48
+U 1 1 5D2428D4
+P 15025 6150
+F 0 "D48" H 15205 6115 50  0000 C CNN
+F 1 "~" H 15025 6025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 6150 50  0001 C CNN
+F 3 "~" H 15025 6150 50  0001 C CNN
+	1    15025 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D49
+U 1 1 5D2608C3
+P 15025 6350
+F 0 "D49" H 15205 6315 50  0000 C CNN
+F 1 "~" H 15025 6225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 6350 50  0001 C CNN
+F 3 "~" H 15025 6350 50  0001 C CNN
+	1    15025 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D47
+U 1 1 5D27E8D4
+P 15025 5350
+F 0 "D47" H 15205 5315 50  0000 C CNN
+F 1 "~" H 15025 5225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 5350 50  0001 C CNN
+F 3 "~" H 15025 5350 50  0001 C CNN
+	1    15025 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D46
+U 1 1 5D29C986
+P 15025 5150
+F 0 "D46" H 15205 5115 50  0000 C CNN
+F 1 "~" H 15025 5025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 5150 50  0001 C CNN
+F 3 "~" H 15025 5150 50  0001 C CNN
+	1    15025 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D45
+U 1 1 5D2BA9A7
+P 15025 4350
+F 0 "D45" H 15205 4315 50  0000 C CNN
+F 1 "~" H 15025 4225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 4350 50  0001 C CNN
+F 3 "~" H 15025 4350 50  0001 C CNN
+	1    15025 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D44
+U 1 1 5D2D8992
+P 15025 4150
+F 0 "D44" H 15205 4115 50  0000 C CNN
+F 1 "~" H 15025 4025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 4150 50  0001 C CNN
+F 3 "~" H 15025 4150 50  0001 C CNN
+	1    15025 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D38
+U 1 1 5D2F77FC
+P 15025 1150
+F 0 "D38" H 15205 1115 50  0000 C CNN
+F 1 "~" H 15025 1025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 1150 50  0001 C CNN
+F 3 "~" H 15025 1150 50  0001 C CNN
+	1    15025 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D39
+U 1 1 5D3157E9
+P 15025 1350
+F 0 "D39" H 15205 1315 50  0000 C CNN
+F 1 "~" H 15025 1225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 1350 50  0001 C CNN
+F 3 "~" H 15025 1350 50  0001 C CNN
+	1    15025 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D40
+U 1 1 5D3337E2
+P 15025 2150
+F 0 "D40" H 15205 2115 50  0000 C CNN
+F 1 "~" H 15025 2025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 2150 50  0001 C CNN
+F 3 "~" H 15025 2150 50  0001 C CNN
+	1    15025 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D41
+U 1 1 5D3517DE
+P 15025 2350
+F 0 "D41" H 15205 2315 50  0000 C CNN
+F 1 "~" H 15025 2225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 2350 50  0001 C CNN
+F 3 "~" H 15025 2350 50  0001 C CNN
+	1    15025 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D42
+U 1 1 5D36F7DD
+P 15025 3150
+F 0 "D42" H 15205 3115 50  0000 C CNN
+F 1 "~" H 15025 3025 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 3150 50  0001 C CNN
+F 3 "~" H 15025 3150 50  0001 C CNN
+	1    15025 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:D_TVS-Device D43
+U 1 1 5D38D7C9
+P 15025 3350
+F 0 "D43" H 15205 3315 50  0000 C CNN
+F 1 "~" H 15025 3225 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15025 3350 50  0001 C CNN
+F 3 "~" H 15025 3350 50  0001 C CNN
+	1    15025 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR014
+U 1 1 5D5B8C04
+P 7810 7685
+F 0 "#PWR014" H 7810 7435 50  0001 C CNN
+F 1 "Earth" H 7810 7535 50  0001 C CNN
+F 2 "" H 7810 7685 50  0001 C CNN
+F 3 "~" H 7810 7685 50  0001 C CNN
+	1    7810 7685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7485 5500 7430 5500
+$Comp
+L rstctlr-rescue:Conn_02x03_Odd_Even-Connector_Generic J3
+U 1 1 5D3AD450
+P 7510 7585
+F 0 "J3" H 7560 7890 50  0000 C CNN
+F 1 "ICSP" H 7560 7795 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7510 7585 50  0001 C CNN
+F 3 "~" H 7510 7585 50  0001 C CNN
+	1    7510 7585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 7585 7975 5300
+Wire Wire Line
+	7430 5400 7645 5400
+Wire Wire Line
+	7645 5400 7645 7175
+Wire Wire Line
+	7645 7175 7310 7175
+Wire Wire Line
+	7310 7175 7310 7485
+Wire Wire Line
+	7485 7030 7155 7030
+Wire Wire Line
+	7155 7030 7155 7585
+Wire Wire Line
+	7155 7585 7310 7585
+Wire Wire Line
+	7485 5500 7485 7030
+Wire Wire Line
+	7430 5300 7975 5300
+Wire Wire Line
+	7810 7585 7975 7585
+Wire Wire Line
+	6035 5200 6035 7685
+Wire Wire Line
+	6035 7685 7310 7685
+Wire Wire Line
+	6035 5200 6230 5200
+Wire Wire Line
+	6035 5125 6035 5200
+Connection ~ 6035 5200
+Wire Wire Line
+	6035 4825 6035 4750
+Wire Wire Line
+	13465 2050 13965 2050
+Wire Wire Line
+	13365 2450 13965 2450
+Wire Wire Line
+	10615 2250 13765 2250
+Wire Wire Line
+	15175 2150 15175 2050
+Wire Wire Line
+	14665 2050 15175 2050
+Wire Wire Line
+	14665 2250 14875 2250
+Connection ~ 14875 2250
+Wire Wire Line
+	14665 2450 14875 2450
+Connection ~ 14875 2450
+Wire Wire Line
+	14665 2650 15175 2650
+Wire Wire Line
+	13165 3050 13965 3050
+Wire Wire Line
+	10815 3250 13765 3250
+Wire Wire Line
+	13065 3450 13965 3450
+Wire Wire Line
+	10915 3650 13765 3650
+Wire Wire Line
+	14665 3050 15175 3050
+Wire Wire Line
+	14875 3250 14665 3250
+Connection ~ 14875 3250
+Wire Wire Line
+	14665 3450 14875 3450
+Connection ~ 14875 3450
+Wire Wire Line
+	14665 3650 15175 3650
+$Comp
+L rstctlr-rescue:R-Device R8
+U 1 1 5BBE8829
+P 8860 5400
+F 0 "R8" V 8653 5400 50  0000 C CNN
+F 1 "10kΩ" V 8744 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8790 5400 50  0001 C CNN
+F 3 "~" H 8860 5400 50  0001 C CNN
+	1    8860 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14665 4650 15175 4650
+Wire Wire Line
+	14665 4450 14875 4450
+Connection ~ 14875 4450
+Wire Wire Line
+	14665 4250 14875 4250
+Connection ~ 14875 4250
+Wire Wire Line
+	14665 4050 15175 4050
+Wire Wire Line
+	15175 4050 15175 4150
+Wire Wire Line
+	12865 4050 13965 4050
+Wire Wire Line
+	11015 4250 13765 4250
+Wire Wire Line
+	11115 4650 13765 4650
+Wire Wire Line
+	12765 4450 13965 4450
+Wire Wire Line
+	14665 5050 15175 5050
+Wire Wire Line
+	14665 5250 14875 5250
+Connection ~ 14875 5250
+Wire Wire Line
+	14665 5450 14875 5450
+Connection ~ 14875 5450
+Wire Wire Line
+	14875 5450 15225 5450
+Wire Wire Line
+	14665 5650 15175 5650
+Wire Wire Line
+	12565 5050 13965 5050
+Wire Wire Line
+	12465 5450 13965 5450
+Wire Wire Line
+	14665 6050 15175 6050
+Wire Wire Line
+	14665 6250 14875 6250
+Connection ~ 14875 6250
+Wire Wire Line
+	14665 6450 14875 6450
+Connection ~ 14875 6450
+Wire Wire Line
+	14665 6650 15175 6650
+Wire Wire Line
+	11115 6250 13765 6250
+Wire Wire Line
+	11015 6650 13765 6650
+Wire Wire Line
+	12265 6050 13965 6050
+Wire Wire Line
+	12165 6450 13965 6450
+Wire Wire Line
+	14665 7250 14875 7250
+Connection ~ 14875 7250
+Wire Wire Line
+	14665 7450 14875 7450
+Connection ~ 14875 7450
+Wire Wire Line
+	14665 7050 15175 7050
+Wire Wire Line
+	14665 7650 15175 7650
+Wire Wire Line
+	11965 7050 13965 7050
+Wire Wire Line
+	11865 7450 13965 7450
+Wire Wire Line
+	10915 7250 13765 7250
+Wire Wire Line
+	10815 7650 13765 7650
+Wire Wire Line
+	14665 8250 14875 8250
+Connection ~ 14875 8250
+Wire Wire Line
+	14665 8450 14875 8450
+Connection ~ 14875 8450
+Wire Wire Line
+	14665 8050 15175 8050
+Wire Wire Line
+	14665 8650 15175 8650
+Wire Wire Line
+	10715 8250 13765 8250
+Wire Wire Line
+	10615 8650 13765 8650
+Wire Wire Line
+	11665 8050 13965 8050
+Wire Wire Line
+	11565 8450 13965 8450
+Wire Wire Line
+	9115 5400 9415 5400
+Wire Wire Line
+	9010 5400 9115 5400
+Connection ~ 9115 5400
+Wire Wire Line
+	8710 5400 8610 5400
+Wire Wire Line
+	8610 5400 8610 5205
+Wire Wire Line
+	7810 4300 7810 5205
+Wire Wire Line
+	9915 1050 9915 4300
+Wire Wire Line
+	5725 4300 6830 4300
+Wire Wire Line
+	4100 5750 6135 5750
+Wire Wire Line
+	4100 5850 6230 5850
+Connection ~ 5725 5150
+Wire Wire Line
+	5500 5150 5725 5150
+Wire Wire Line
+	5500 4750 5725 4750
+Wire Wire Line
+	5725 4750 6035 4750
+Wire Wire Line
+	7810 4300 9915 4300
+Connection ~ 7810 4300
+Connection ~ 9915 4300
+Wire Wire Line
+	9915 4300 9915 4400
+Wire Wire Line
+	7430 4800 9415 4800
+Wire Wire Line
+	9415 4800 9415 4900
+Wire Wire Line
+	9315 4900 7430 4900
+Wire Wire Line
+	7430 5000 9215 5000
+Wire Wire Line
+	9215 5000 9215 5200
+Wire Wire Line
+	7430 5100 9115 5100
+Wire Wire Line
+	8610 5205 7810 5205
+Connection ~ 7810 5205
+Wire Wire Line
+	7810 5205 7810 7485
+Wire Wire Line
+	10415 5000 10715 5000
+Wire Wire Line
+	10715 2650 13765 2650
+Connection ~ 3690 4300
+Wire Wire Line
+	3690 4300 4200 4300
+Wire Wire Line
+	2525 4300 2690 4300
+$Comp
+L rstctlr-rescue:Jumper_NC_Small-Device JP1
+U 1 1 5C724839
+P 3110 4300
+F 0 "JP1" H 3110 4421 50  0000 C CNN
+F 1 "~" H 3110 4421 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3110 4300 50  0001 C CNN
+F 3 "~" H 3110 4300 50  0001 C CNN
+	1    3110 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4550 3600 4300
+Connection ~ 3600 4300
+NoConn ~ 4100 5550
+Wire Wire Line
+	6135 5650 4200 5650
+Wire Wire Line
+	4200 5650 4200 5250
+Wire Wire Line
+	4200 5250 4100 5250
+Wire Wire Line
+	3500 4300 3500 4550
+Connection ~ 3500 4300
+Wire Wire Line
+	3500 4300 3600 4300
+Wire Wire Line
+	3210 4300 3500 4300
+$Comp
+L rstctlr-rescue:R-Device R2
+U 1 1 5C822C8F
+P 2690 4540
+F 0 "R2" H 2760 4586 50  0000 L CNN
+F 1 "4.7kΩ" H 2760 4495 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2620 4540 50  0001 C CNN
+F 3 "~" H 2690 4540 50  0001 C CNN
+	1    2690 4540
+	1    0    0    -1  
+$EndComp
+Connection ~ 2690 4300
+Wire Wire Line
+	2690 4300 3010 4300
+$Comp
+L rstctlr-rescue:R-Device R3
+U 1 1 5C822E7F
+P 2690 5700
+F 0 "R3" H 2525 5740 50  0000 L CNN
+F 1 "10kΩ" H 2425 5645 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2620 5700 50  0001 C CNN
+F 3 "~" H 2690 5700 50  0001 C CNN
+	1    2690 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rstctlr-rescue:Earth-power #PWR05
+U 1 1 5C823099
+P 2690 6500
+F 0 "#PWR05" H 2690 6250 50  0001 C CNN
+F 1 "Earth" H 2690 6350 50  0001 C CNN
+F 2 "" H 2690 6500 50  0001 C CNN
+F 3 "~" H 2690 6500 50  0001 C CNN
+	1    2690 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5050 2690 5050
+Wire Wire Line
+	2690 4390 2690 4300
+Wire Wire Line
+	2690 4300 2690 4295
+Wire Wire Line
+	2690 5050 2690 4690
+Connection ~ 2690 5050
+Wire Wire Line
+	2690 5050 2690 5550
+Wire Wire Line
+	2690 6500 2690 5850
+Wire Wire Line
+	11210 5250 13765 5250
+Wire Wire Line
+	11215 5650 13765 5650
+Wire Wire Line
+	13965 5650 14065 5650
+Wire Wire Line
+	2100 4550 2525 4550
+Connection ~ 13965 5650
+Wire Wire Line
+	6135 5400 6135 5650
+Wire Wire Line
+	1900 4950 1900 4550
+Wire Wire Line
+	4600 4810 4600 4750
+Wire Wire Line
+	4400 4300 4600 4300
+Wire Wire Line
+	4600 4750 4600 4300
+Connection ~ 4600 4750
+Connection ~ 4600 4300
+Wire Wire Line
+	4600 4300 5550 4300
+$Comp
+L Connector:USB_B J1
+U 1 1 5CA9964C
+P 1500 4750
+F 0 "J1" H 1557 5217 50  0000 C CNN
+F 1 "USB_B" H 1557 5126 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1650 4700 50  0001 C CNN
+F 3 " ~" H 1650 4700 50  0001 C CNN
+	1    1500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4750 2100 4750
+Wire Wire Line
+	2300 4850 3000 4850
+Wire Wire Line
+	1800 4750 2100 4750
+Connection ~ 2100 4750
+Wire Wire Line
+	1800 4850 2300 4850
+Connection ~ 2300 4850
+Wire Wire Line
+	1500 5150 1500 5450
+Connection ~ 1500 5450
+Wire Wire Line
+	1200 5450 1200 5150
+Wire Wire Line
+	1200 5150 1400 5150
+Connection ~ 1200 5450
+Connection ~ 5550 4950
+$Comp
+L rstctlr-rescue:PWR_FLAG-power #FLG03
+U 1 1 5BA5F48A
+P 5550 4950
+F 0 "#FLG03" H 5550 5025 50  0001 C CNN
+F 1 "PWR_FLAG" V 5550 5078 50  0001 L CNN
+F 2 "" H 5550 4950 50  0001 C CNN
+F 3 "~" H 5550 4950 50  0001 C CNN
+	1    5550 4950
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

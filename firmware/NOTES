@@ -1,0 +1,4 @@
+1. Using the external clock from the FT232RL required
+   setting a fuse on that chip (CBUS4 -> CLK12).
+2. Also required setting a fuse on the ATtiny 2313A
+   (see Makefile; lfuse set to 0x60)

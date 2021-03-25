@@ -1,0 +1,10 @@
+[
+    { "system": "bombay", "port": 0 },
+    { "system": "calcutta", "port": 1 },
+    { "system": "max", "port": 2 },
+    { "system": "sarah", "port": 3 },
+    { "system": "reese", "port": 4 },
+    { "system": "john", "port": 5 },
+    { "system": "hy6", "port": 6 },
+    { "system": "hy7", "port": 7 }
+]

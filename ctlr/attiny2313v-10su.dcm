@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATtiny2313A-20SU
+D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIC-20
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2543-AVR-ATtiny2313_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

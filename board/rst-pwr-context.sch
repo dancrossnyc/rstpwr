@@ -1,0 +1,288 @@
+EESchema Schematic File Version 4
+LIBS:rst-pwr-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Electrically Isolated Digital Power/Reset Switch Circuit"
+Date "2018-08-29"
+Rev "2.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L rst-pwr-rescue:R R1
+U 1 1 5671D895
+P 4050 4250
+F 0 "R1" V 3855 4250 50  0000 C CNN
+F 1 "1kΩ" V 3955 4250 50  0000 C CNN
+F 2 "" V 3980 4250 50  0000 C CNN
+F 3 "" H 4050 4250 50  0000 C CNN
+	1    4050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L rst-pwr-rescue:R R2
+U 1 1 5671D973
+P 6050 3350
+F 0 "R2" H 6120 3400 50  0000 L CNN
+F 1 "2.5-4kΩ" H 6120 3300 50  0000 L BNN
+F 2 "" V 5980 3350 50  0000 C CNN
+F 3 "" H 6050 3350 50  0000 C CNN
+	1    6050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L rst-pwr-rescue:SW_PUSH SW1
+U 1 1 5671D9BE
+P 7100 3950
+F 0 "SW1" H 7100 4193 50  0000 C CNN
+F 1 "PWR" H 7100 4093 50  0000 C CNN
+F 2 "" H 7100 3950 50  0000 C CNN
+F 3 "" H 7100 3950 50  0000 C CNN
+	1    7100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3100 6050 3200
+$Comp
+L rst-pwr-rescue:PC817 U2
+U 1 1 5B86C009
+P 4750 4500
+F 0 "U2" H 4750 4919 50  0000 C CNN
+F 1 "PC817" H 4750 4819 50  0000 C CNN
+F 2 "SOIC-4" H 4750 4719 50  0000 C CIN
+F 3 "" H 4750 4500 50  0000 L CNN
+	1    4750 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5B86C8E1
+P 3550 4250
+F 0 "J1" H 3470 3925 50  0000 C CNN
+F 1 "Molex" H 3470 4016 50  0000 C CNN
+F 2 "" H 3550 4250 50  0001 C CNN
+F 3 "~" H 3550 4250 50  0001 C CNN
+	1    3550 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 4250 3900 4250
+Wire Wire Line
+	4200 4250 4350 4250
+Wire Wire Line
+	4350 4250 4350 4100
+Wire Wire Line
+	4350 4100 4450 4100
+Wire Wire Line
+	4450 4400 4350 4400
+Wire Wire Line
+	4350 4400 4350 4250
+Connection ~ 4350 4250
+Wire Wire Line
+	3750 4150 3900 4150
+Wire Wire Line
+	3900 4150 3900 3900
+Wire Wire Line
+	3900 3900 4450 3900
+Wire Wire Line
+	3750 4350 3900 4350
+Wire Wire Line
+	3900 4350 3900 4600
+Wire Wire Line
+	3900 4600 4450 4600
+$Comp
+L rst-pwr-rescue:SW_PUSH SW2
+U 1 1 5B86E6CA
+P 7100 4550
+F 0 "SW2" H 7100 4793 50  0000 C CNN
+F 1 "RST" H 7100 4693 50  0000 C CNN
+F 2 "" H 7100 4550 50  0000 C CNN
+F 3 "" H 7100 4550 50  0000 C CNN
+	1    7100 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5B870443
+P 6050 4550
+F 0 "J5" H 6129 4496 50  0000 L CNN
+F 1 "~" H 6130 4451 50  0001 L CNN
+F 2 "" H 6050 4550 50  0001 C CNN
+F 3 "" H 6050 4550 50  0001 C CNN
+	1    6050 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5B8704DF
+P 6050 3950
+F 0 "J2" H 6129 3896 50  0000 L CNN
+F 1 "MB PWR" H 6130 3851 50  0001 L CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 "" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4250 3150 4250
+Wire Wire Line
+	5850 4100 5850 4050
+Wire Wire Line
+	5050 4400 5250 4400
+Wire Wire Line
+	5050 4100 5550 4100
+Wire Wire Line
+	5850 4100 5550 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5050 4600 5850 4600
+Wire Wire Line
+	5250 4400 5850 4400
+Connection ~ 5250 4400
+Wire Wire Line
+	5250 4400 5250 5000
+Wire Wire Line
+	5550 4100 5550 5000
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5B87ECD1
+P 6600 3950
+F 0 "J3" H 6679 3896 50  0000 L CNN
+F 1 "~" H 6680 3851 50  0000 L CNN
+F 2 "" H 6600 3950 50  0001 C CNN
+F 3 "~" H 6600 3950 50  0001 C CNN
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3900 5850 3900
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5B8818E3
+P 6600 4550
+F 0 "J6" H 6679 4496 50  0000 L CNN
+F 1 "~" H 6680 4451 50  0000 L CNN
+F 2 "" H 6600 4550 50  0001 C CNN
+F 3 "" H 6600 4550 50  0001 C CNN
+	1    6600 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R3
+U 1 1 5B882D89
+P 6050 5100
+F 0 "R3" V 5923 5180 50  0000 L CNN
+F 1 "MB RST" V 6014 5180 50  0000 L CNN
+F 2 "" H 6050 5100 50  0001 C CNN
+F 3 "~" H 6050 5100 50  0001 C CNN
+	1    6050 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0102
+U 1 1 5B88518B
+P 5250 5000
+F 0 "#PWR0102" H 5250 4750 50  0001 C CNN
+F 1 "Earth" H 5250 4850 50  0001 C CNN
+F 2 "" H 5250 5000 50  0001 C CNN
+F 3 "~" H 5250 5000 50  0001 C CNN
+	1    5250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0103
+U 1 1 5B885CAD
+P 5550 5000
+F 0 "#PWR0103" H 5550 4750 50  0001 C CNN
+F 1 "Earth" H 5550 4850 50  0001 C CNN
+F 2 "" H 5550 5000 50  0001 C CNN
+F 3 "~" H 5550 5000 50  0001 C CNN
+	1    5550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P1
+U 1 1 5B886872
+P 6050 2900
+F 0 "P1" V 6016 2812 50  0000 R CNN
+F 1 "STNDBY" V 5925 2812 50  0000 R CNN
+F 2 "" H 6050 2900 50  0001 C CNN
+F 3 "~" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3950 6050 3950
+Connection ~ 6400 3950
+Wire Wire Line
+	6400 3950 6800 3950
+Wire Wire Line
+	5850 3900 5850 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	6050 3500 6050 3950
+Connection ~ 6050 3950
+Wire Wire Line
+	6050 3950 6400 3950
+Wire Wire Line
+	7400 3950 7400 4050
+Wire Wire Line
+	7400 4050 6400 4050
+Connection ~ 5850 4050
+Connection ~ 6400 4050
+Wire Wire Line
+	6400 4050 5850 4050
+Wire Wire Line
+	5850 4400 5850 4450
+Wire Wire Line
+	5850 4450 6400 4450
+Wire Wire Line
+	7400 4450 7400 4550
+Connection ~ 5850 4450
+Connection ~ 6400 4450
+Wire Wire Line
+	6400 4450 7400 4450
+Wire Wire Line
+	6800 4550 6400 4550
+Wire Wire Line
+	5850 4550 5850 4600
+Connection ~ 5850 4550
+Connection ~ 6400 4550
+Wire Wire Line
+	6400 4550 6050 4550
+Wire Wire Line
+	6050 4550 6050 4900
+Connection ~ 6050 4550
+Wire Wire Line
+	6050 4550 5850 4550
+$Comp
+L rst-pwr-rescue:PC817 U1
+U 1 1 5671D8EE
+P 4750 4000
+F 0 "U1" H 4750 4419 50  0000 C CNN
+F 1 "PC817" H 4750 4319 50  0000 C CNN
+F 2 "SOIC-4" H 4750 4219 50  0000 C CIN
+F 3 "" H 4750 4000 50  0000 L CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 5B873C05
+P 3150 5000
+F 0 "#PWR0101" H 3150 4750 50  0001 C CNN
+F 1 "GNDREF" H 3155 4827 50  0000 C CNN
+F 2 "" H 3150 5000 50  0001 C CNN
+F 3 "" H 3150 5000 50  0001 C CNN
+	1    3150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5000 3150 4250
+$EndSCHEMATC
