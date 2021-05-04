@@ -1,4 +1,4 @@
-package main
+package cmd;
 
 import (
 	"encoding/json"
@@ -16,18 +16,18 @@ func init() {
 	flag.StringVar(&usockPath, "s", "/var/run/rstctlrd.sock", "Path to Unix domain socket")
 }
 
-const FMT = `{"system":"%s","user":"%s","action":"off"}`
+const FMT = `{"system":"%s","user":"%s","action":"reset"}`
 
 type Message struct {
 	Status bool   `json:"status"`
 	Error  string `json:"error"`
 }
 
-func main() {
+func Main(prog string, cmd string) {
 	flag.Parse()
 
 	if len(os.Args) != 2 {
-		log.Fatal("usage: hyoff system")
+		log.Fatal("usage:", prog, " system")
 	}
 	system := os.Args[1]
 	user, uerr := user.Current()
@@ -40,7 +40,7 @@ func main() {
 		log.Fatal("cannot dial controller: ", cerr)
 	}
 	defer c.Close()
-	msg := fmt.Sprintf(FMT, system, login)
+	msg := fmt.Sprintf(cmd, system, login)
 	_, werr := c.Write([]byte(msg))
 	if werr != nil {
 		log.Fatal("cannot write message: ", werr)

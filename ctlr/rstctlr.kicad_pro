@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -10,8 +10,8 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 1,
-        "dimension_units": 0,
+        "dimension_precision": 4,
+        "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -26,7 +26,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -37,27 +37,22 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.2
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
-        "version": 1
+        "filename": "board_design_settings.json",
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -66,7 +61,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_too_small": "error",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -76,7 +71,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_too_small": "error",
+        "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -111,24 +106,12 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "min_via_diameter": 0.39999999999999997
       },
-      "track_widths": [
-        0.25
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
-      "zones_use_no_outline": false
+      "zones_use_no_outline": true
     },
     "layer_presets": []
   },
@@ -137,6 +120,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -147,83 +131,6 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
         0,
         1,
         0,
@@ -235,8 +142,107 @@
       [
         0,
         2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
         0,
         1,
         0,
@@ -251,18 +257,6 @@
         0,
         1,
         0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
         0,
         1,
         0,
@@ -272,6 +266,21 @@
         2
       ],
       [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
         2,
         2,
         2,
@@ -292,10 +301,13 @@
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
+      "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "extra_units": "error",
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -303,8 +315,12 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
-      "unresolved_variable": "error"
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
     }
   },
   "libraries": {
@@ -350,7 +366,7 @@
       "vmrl": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "stylesheet.kicad_wks"
   },
   "schematic": {
     "drawing": {
@@ -360,6 +376,12 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -369,12 +391,24 @@
       "version": 0
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
+    "page_layout_descr_file": "drawing.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "974e2b40-3d11-43d1-84ef-87f386c3ce55",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
