@@ -4810,7 +4810,7 @@
   (gr_line (start 175.26 44.45) (end 175.26 107.95) (layer "Edge.Cuts") (width 0.05) (tstamp 04923149-01c4-409c-805e-b25cb32f8206))
   (gr_line (start 175.26 107.95) (end 60.96 107.95) (layer "Edge.Cuts") (width 0.05) (tstamp cf9486d6-328d-4fac-887f-cf806ce179a1))
   (gr_line (start 60.96 107.95) (end 60.96 44.45) (layer "Edge.Cuts") (width 0.05) (tstamp e1f0d3c8-d899-4d1d-8bca-83ecc4507b43))
-  (gr_text "RST/PWR Controller\nV2.0" (at 84.6836 51.1556) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005c972b1b)
+  (gr_text "RST/PWR Controller\nV3.0" (at 84.6836 51.1556) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005c972b1b)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
