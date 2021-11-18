@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.049999999999999996,
+        "board_outline_line_width": 0.15,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -37,14 +37,14 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -80,8 +80,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -94,12 +94,14 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.024999999999999998,
+        "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -308,19 +310,19 @@
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
       "extra_units": "error",
-      "global_label_dangling": "error",
+      "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "multiple_net_names": "error",
-      "net_not_bus_member": "error",
-      "no_connect_connected": "error",
-      "no_connect_dangling": "error",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
-      "similar_labels": "error",
+      "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -332,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rstctlr.kicad_pro",
+    "filename": "rst-pwr.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -350,7 +352,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
+        "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6.0
       }
@@ -364,22 +366,18 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "rst-pwr.net",
       "specctra_dsn": "",
       "step": "",
-      "vmrl": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "stylesheet.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
+      "default_text_size": 60.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -387,9 +385,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.3,
+      "label_size_ratio": 0.25,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -406,7 +404,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "drawing.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -415,7 +413,7 @@
   },
   "sheets": [
     [
-      "974e2b40-3d11-43d1-84ef-87f386c3ce55",
+      "14f92508-d2cf-48e2-8b3c-aaabaf5f7e92",
       ""
     ]
   ],
